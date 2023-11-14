@@ -12,9 +12,8 @@ export function AppRoutes() {
         headerShown: false,
       }}
     >
+      {/* <Screen name="splash" component={Splash} /> */}
       <Screen name="home" component={Home} />
-
-      <Screen name="splash" component={Splash} />
     </Navigator>
   );
 }

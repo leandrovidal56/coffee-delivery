@@ -5,6 +5,8 @@ import { StatusBar } from "expo-status-bar";
 import { NavBar } from "../../components/navBar";
 import { InputComponent } from "../../components/input";
 import { CoffeeCard } from "../../components/coffeeCard";
+import { CoffeeList } from "../../components/coffeeList";
+import { Tag } from "../../components/tag";
 
 export function Home() {
   return (
@@ -17,7 +19,9 @@ export function Home() {
         </Content>
         <Wrapper>
           <CoffeeCard />
+          <Tag />
         </Wrapper>
+        <CoffeeList />
       </Container>
     </Animated.View>
   );
